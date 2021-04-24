@@ -15,7 +15,7 @@ function Q5 (){
                     alert("Odlicno, predji na sledece pitanje");
                 }
                 else{
-                    if(count == 4){
+                    if(count === 4){
                         alert("Promasili ste 3 puta, tacan odgovor je Titula ovog igraca je velemajstor Rejting mu je 2340, parametri koje smo prosledili pri instanciranju su prioritetniji, a vrednosti i parametri u zagradama u konstruktoru su default vrednosti ako se ne prosledi nista");
                         }
                     else{

@@ -15,7 +15,7 @@ function Q4 (){
                         alert("Odlicno, predji na sledece pitanje");
                     }
                     else{
-                        if(count == 4){
+                        if(count === 4){
                             alert("Promasili ste 3 puta, tacan odgovor je GRESKA, jer smo kod pravljenja objekta prosledili 'true' a to je string, a nas konstruktor prima bool, dakle trebalo je napisati true bez navodnika");
                             }
                         else{

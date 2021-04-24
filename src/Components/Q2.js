@@ -15,7 +15,7 @@ function Q2 (){
                         alert("Odlicno, predji na sledece pitanje");
                     }
                     else{
-                        if(count == 4){
+                        if(count === 4){
                             alert("Promasili ste 3 puta, tacan odgovor je NISTA, jer nemamo nigde Console.WriteLine()");
                             }
                         else{

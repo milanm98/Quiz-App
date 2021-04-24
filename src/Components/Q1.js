@@ -15,7 +15,7 @@ function Q1 (){
                 alert("Odlicno, predji na sledece pitanje");
             }
             else{
-                if(count == 4){
+                if(count === 4){
                     alert("Promasili ste 3 puta, tacan odgovor je nula ili 0, jer nismo prosledili nista pri instanciranju klase, a default vrednost int-a je 0");
                     }
                 else{

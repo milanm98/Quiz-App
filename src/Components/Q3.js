@@ -14,7 +14,7 @@ function Q3 (){
             alert("Odlicno, predji na sledece pitanje");
         }
         else{
-            if(count == 4){
+            if(count === 4){
                 alert("Promasili ste 3 puta, tacan odgovor je GRESKA, zbog velikog slova C prilikom pisanja kljucne reci class");
                 }
             else{
