@@ -14,7 +14,7 @@ function App() {
         <BrowserRouter>
             <NavBar/>
             <Switch>
-                <Route component={Q1} path="/q1"></Route>
+                <Route component={Q1} path="/q1" exact></Route>
                 <Route component={Q2} path="/q2"></Route>
                 <Route component={Q3} path="/q3"></Route>
                 <Route component={Q4} path="/q4"></Route>
