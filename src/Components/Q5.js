@@ -37,8 +37,8 @@ function Q5 (){
                         </img>
                    </div>
                   <div className="result w-full">
-                      <input onChange={handleChange} value={answer} placeholder="Enter your answer here" className=" w-full h-12"></input>
-                      <button onClick={handleClick} className="text-center w-32 h-16 bg-green-500">Submit answer</button>
+                      <input onChange={handleChange} value={answer} placeholder="Enter your answer here" className="text-center text-2xl w-full h-12"></input>
+                      <button onClick={handleClick} className="text-center w-32 h-16 bg-green-200">Submit answer</button>
                   </div>
                </main>
     )

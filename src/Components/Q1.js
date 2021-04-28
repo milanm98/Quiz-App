@@ -11,12 +11,12 @@ function Q1 (){
         }
 
         const handleClick = () => {
-            if(answer === "0" || answer === "nula"){
+            if(answer === "broj atoma ovog molekula je 0"){
                 alert("Odlicno, predji na sledece pitanje");
             }
             else{
                 if(count === 4){
-                    alert("Promasili ste 3 puta, tacan odgovor je nula ili 0, jer nismo prosledili nista pri instanciranju klase, a default vrednost int-a je 0");
+                    alert("Promasili ste 3 puta, tacan odgovor je : broj atoma ovog molekula je 0, jer nismo prosledili nista pri instanciranju klase, a default vrednost int-a je 0");
                     }
                 else{
                     alert("Netacno ! Probaj opet");
@@ -38,8 +38,8 @@ function Q1 (){
                  </img>
             </div>
             <div className="result w-full">
-                 <input onChange={handleChange} value={answer} placeholder="Enter your answer here" className=" w-full h-12"></input>
-                 <button onClick={handleClick} className="text-center w-32 h-16 bg-green-500">Submit answer</button>
+                 <input onChange={handleChange} value={answer} placeholder="Enter your answer here" className="text-2xl text-center w-full h-12"></input>
+                 <button onClick={handleClick} className="text-center w-32 h-16 bg-green-200">Submit answer</button>
             </div>
         </main>
     )
