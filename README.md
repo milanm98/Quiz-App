@@ -7,8 +7,6 @@ its web app only for desktop, not designed for mobile
 
 project done with react, styles with tailwind 
 
-Project done in React, styles with tailwind
-
 Check landing page : 
 
 ![image](https://user-images.githubusercontent.com/62839581/116453874-a6479280-a85f-11eb-9f50-85136309fc4f.png)
