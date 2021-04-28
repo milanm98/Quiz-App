@@ -11,12 +11,12 @@ function Q1 (){
         }
 
         const handleClick = () => {
-            if(answer === "broj atoma ovog molekula je 0"){
+            if(answer === "Broj atoma ovog molekula je 0"){
                 alert("Odlicno, predji na sledece pitanje");
             }
             else{
                 if(count === 4){
-                    alert("Promasili ste 3 puta, tacan odgovor je : broj atoma ovog molekula je 0, jer nismo prosledili nista pri instanciranju klase, a default vrednost int-a je 0");
+                    alert("Promasili ste 3 puta, tacan odgovor je : Broj atoma ovog molekula je 0, jer nismo prosledili nista pri instanciranju klase, a default vrednost int-a je 0");
                     }
                 else{
                     alert("Netacno ! Probaj opet");
